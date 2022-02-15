@@ -26,11 +26,11 @@ brew install gnu-sed --with-default-names
 brew install bash
 brew install bash-completion2
 
-# Switch to using brew-installed bash as default shell
-if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
-  echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
-  chsh -s "${BREW_PREFIX}/bin/bash";
-fi;
+## Switch to using brew-installed bash as default shell
+#if ! fgrep -q "${BREW_PREFIX}/bin/bash" /etc/shells; then
+#  echo "${BREW_PREFIX}/bin/bash" | sudo tee -a /etc/shells;
+#  chsh -s "${BREW_PREFIX}/bin/bash";
+#fi;
 
 # Install `wget` with IRI support.
 brew install wget --with-iri
@@ -98,10 +98,12 @@ brew install vbindiff
 brew install zopfli
 
 # dashbot related programs
+brew install node
 brew install nvm
 brew install docker
 brew install java
 brew install flyway
+brew install yarn
 
 # Remove outdated versions from the cellar.
 brew cleanup
