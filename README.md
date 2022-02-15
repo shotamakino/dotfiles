@@ -67,6 +67,8 @@ You could also use `~/.extra` to override settings, functions and aliases from m
 
 ### Sensible macOS defaults
 
+*Deleted this script - re-fork if you'd like this*
+
 When setting up a new Mac, you may want to set some sensible macOS defaults:
 
 ```bash
