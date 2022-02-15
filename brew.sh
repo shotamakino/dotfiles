@@ -97,5 +97,11 @@ brew install tree
 brew install vbindiff
 brew install zopfli
 
+# dashbot related programs
+brew install nvm
+brew install docker
+brew install java
+brew install flyway
+
 # Remove outdated versions from the cellar.
 brew cleanup
